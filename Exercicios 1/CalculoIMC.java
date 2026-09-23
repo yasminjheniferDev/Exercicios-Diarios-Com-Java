@@ -13,6 +13,11 @@ public class CalculoIMC {
 
         System.out.printf("O seu IMC é =  %.2f. %n" , IMC );
 
+         if(IMC >=18 & IMC < 25){
+             System.out.println("Parabéns! Você está no seu peso ideal.");
+         } else{
+             System.out.println("Você não está na faixa de peso ideal.");
+         }
 
         entrada.close();
     }
