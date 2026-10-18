@@ -10,7 +10,7 @@ public class NumerosDigitados {
         int[] n = new int[5];
 
         for (int i = 0; i < n.length; i++) {
-            System.out.println("Digite um número ");
+            System.out.println("Digite um número:");
             n[i] = entrada.nextInt();
         }
 
